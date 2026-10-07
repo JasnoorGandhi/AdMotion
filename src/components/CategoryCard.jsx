@@ -1,0 +1,1 @@
+import {ArrowRight} from 'lucide-react';import {Link} from 'react-router-dom';export default function CategoryCard({id,title,description,icon:Icon}){return <Link className="categoryCard" to={`/details/${id}`}><div className="cardIcon"><Icon/></div><h3>{title}</h3><p>{description}</p><span>Select <ArrowRight size={15}/></span></Link>}

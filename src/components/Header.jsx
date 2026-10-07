@@ -1,0 +1,2 @@
+import {Link,NavLink} from 'react-router-dom';import {Clapperboard,Sparkles} from 'lucide-react';
+export default function Header(){return <header className="topbar"><Link to="/" className="brand"><span><Clapperboard size={18}/></span>AdMotion</Link><nav><NavLink to="/">Home</NavLink><NavLink to="/create">Create</NavLink><NavLink to="/graphics-demo">Graphics Engine</NavLink></nav><Link to="/category" className="headerBtn"><Sparkles size={15}/> Create Ad</Link></header>}

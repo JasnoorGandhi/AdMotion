@@ -1,0 +1,1 @@
+import {Link} from 'react-router-dom';export default function Create(){return <main className="page"><div className="pageTitle"><span>CREATE</span><h1>Build a motion advertisement.</h1><p>Start with a category, then move into the graphics editor.</p></div><Link className="bigCreate" to="/category">Choose Advertisement Category →</Link></main>}
